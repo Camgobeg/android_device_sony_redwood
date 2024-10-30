@@ -17,7 +17,7 @@
 DEVICE_PATH := device/sony/hinoki
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/sony/redwood/redwood-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/mt6757-common/mt6757-common-vendor.mk)
 
 # Display
 TARGET_SCREEN_HEIGHT := 1920
