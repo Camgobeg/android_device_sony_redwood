@@ -2,7 +2,9 @@
 ro.sf.lcd_density=480
 
 # SEMC
+ro.treble.enabled=1
+ro.vndk.version=26  # Android 8.1 için uygun versiyon
 ro.semc.ms_type_id=PM-1010-BV
 ro.semc.version.fs=GENERIC
 ro.semc.product.name=Xperia XA1 Ultra
-ro.semc.product.device=G32
+ro.semc.product.device=G3221
