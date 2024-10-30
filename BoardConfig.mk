@@ -21,6 +21,8 @@ DEVICE_PATH := device/sony/redwood
 # Assert
 TARGET_OTA_ASSERT_DEVICE := XPERIA_XA1_ULTRA,redwood,xperia_xa1_ultra
 
+BOARD_VNDK_VERSION := current
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_redwood_defconfig
 
