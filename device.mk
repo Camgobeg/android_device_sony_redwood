@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/sony/hinoki
+DEVICE_PATH := device/sony/redwood
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/sony/mt6757-common/mt6757-common-vendor.mk)
@@ -23,6 +23,3 @@ $(call inherit-product-if-exists, vendor/sony/mt6757-common/mt6757-common-vendor
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/sensors/hals.conf:system/vendor/etc/sensors/hals.conf
